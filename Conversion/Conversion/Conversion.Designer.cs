@@ -40,9 +40,9 @@
             // 
             // convertBTN
             // 
-            this.convertBTN.Location = new System.Drawing.Point(3, 82);
+            this.convertBTN.Location = new System.Drawing.Point(12, 85);
             this.convertBTN.Name = "convertBTN";
-            this.convertBTN.Size = new System.Drawing.Size(108, 63);
+            this.convertBTN.Size = new System.Drawing.Size(75, 53);
             this.convertBTN.TabIndex = 0;
             this.convertBTN.Text = "Convert Arabic";
             this.convertBTN.UseVisualStyleBackColor = true;
@@ -51,11 +51,10 @@
             // outArabicLB
             // 
             this.outArabicLB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.outArabicLB.Location = new System.Drawing.Point(3, 171);
+            this.outArabicLB.Location = new System.Drawing.Point(12, 171);
             this.outArabicLB.Name = "outArabicLB";
-            this.outArabicLB.Size = new System.Drawing.Size(108, 23);
+            this.outArabicLB.Size = new System.Drawing.Size(100, 23);
             this.outArabicLB.TabIndex = 1;
-            this.outArabicLB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // outRomanLB
             // 
@@ -64,12 +63,11 @@
             this.outRomanLB.Name = "outRomanLB";
             this.outRomanLB.Size = new System.Drawing.Size(100, 23);
             this.outRomanLB.TabIndex = 2;
-            this.outRomanLB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // arabicLB
             // 
             this.arabicLB.AutoSize = true;
-            this.arabicLB.Location = new System.Drawing.Point(0, 19);
+            this.arabicLB.Location = new System.Drawing.Point(9, 9);
             this.arabicLB.Name = "arabicLB";
             this.arabicLB.Size = new System.Drawing.Size(40, 13);
             this.arabicLB.TabIndex = 3;
@@ -78,7 +76,7 @@
             // romanLB
             // 
             this.romanLB.AutoSize = true;
-            this.romanLB.Location = new System.Drawing.Point(166, 19);
+            this.romanLB.Location = new System.Drawing.Point(166, 9);
             this.romanLB.Name = "romanLB";
             this.romanLB.Size = new System.Drawing.Size(44, 13);
             this.romanLB.TabIndex = 4;
@@ -86,11 +84,10 @@
             // 
             // inArabicNumTB
             // 
-            this.inArabicNumTB.Location = new System.Drawing.Point(3, 35);
+            this.inArabicNumTB.Location = new System.Drawing.Point(12, 35);
             this.inArabicNumTB.Name = "inArabicNumTB";
-            this.inArabicNumTB.Size = new System.Drawing.Size(108, 20);
+            this.inArabicNumTB.Size = new System.Drawing.Size(100, 20);
             this.inArabicNumTB.TabIndex = 5;
-            this.inArabicNumTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // inRomanNumTB
             // 
@@ -98,13 +95,12 @@
             this.inRomanNumTB.Name = "inRomanNumTB";
             this.inRomanNumTB.Size = new System.Drawing.Size(100, 20);
             this.inRomanNumTB.TabIndex = 6;
-            this.inRomanNumTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // convertRBTN
             // 
-            this.convertRBTN.Location = new System.Drawing.Point(169, 82);
+            this.convertRBTN.Location = new System.Drawing.Point(169, 85);
             this.convertRBTN.Name = "convertRBTN";
-            this.convertRBTN.Size = new System.Drawing.Size(100, 63);
+            this.convertRBTN.Size = new System.Drawing.Size(75, 53);
             this.convertRBTN.TabIndex = 7;
             this.convertRBTN.Text = "Convert Roman";
             this.convertRBTN.UseVisualStyleBackColor = true;
@@ -114,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 246);
+            this.ClientSize = new System.Drawing.Size(292, 273);
             this.Controls.Add(this.convertRBTN);
             this.Controls.Add(this.inRomanNumTB);
             this.Controls.Add(this.inArabicNumTB);
