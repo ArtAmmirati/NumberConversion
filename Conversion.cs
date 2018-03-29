@@ -29,7 +29,7 @@ namespace Conversion
         private void convertRBTN_Click(object sender, EventArgs e)
         {
             int Roman;
-            Roman = RomanToArabic.RomanConverter(inRomanNumTB.Text);
+            Roman = RomanToArabic.RomanConverter(inRomanNumTB.Text.ToUpper());
             outRomanLB.Text = Roman.ToString();
         }
     }
